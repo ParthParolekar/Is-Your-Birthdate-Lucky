@@ -59,10 +59,11 @@ body{
 }
 
 .result{
-  margin: 100px 0;
+  margin: 70px 0;
   padding: 0.5rem 2rem;
   font-size: 2rem;
   background: var(--secondary);
   color: var(--primary);
-  text-align: center
+  text-align: center;
+  transition: all 0.5s ease;
 }
