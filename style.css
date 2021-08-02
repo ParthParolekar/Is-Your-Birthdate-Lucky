@@ -1,0 +1,68 @@
+:root{
+  --primary: #252525;
+  --secondary: #ff0000;
+  --tertiary: #414141;
+}
+
+h1{
+  color: var(--secondary);
+}
+
+label{
+  color: var(--secondary);
+}
+
+button{
+  color: var(--secondary);
+  background: var(--tertiary);
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.5s ease;
+}
+
+button:hover{
+  color: var(--tertiary);
+  background: var(--secondary);
+  transition: all 0.5s ease;
+  
+}
+
+body{
+  font-family: "Poppins";
+  background: var(--primary);
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form-element{
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result{
+  margin: 100px 0;
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  background: var(--secondary);
+  color: var(--primary);
+  text-align: center
+}
